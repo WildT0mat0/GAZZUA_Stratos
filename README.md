@@ -7,9 +7,11 @@ Arduino Mega 2560을 개발보드로 사용하였고, 헬륨풍선을 통해 성
 MH-SD SD카드 모듈, Grove UV 자외선센서, GY-86 10축 자이로센서 내부 MS5611 기압센서, AM2302(DHT22) 온습도센서, ULPSM O3 오존센서를 사용.
 
 개발: 인천하늘고등학교 7기 한동엽(dyhan724@gmail.com)
+
 INgenium 구성원: 인천하늘고등학교 7기 김기림, 김순호, 김준희, 김윤아, 신혜정, 정민, 조미성, 최원열, 한동엽
 
-=========================================================================================================================================
+=================================================================
+
 This project is lead by INgenium, Infinite Imagination Program students' engineering club at Incheon Haneul Academy.
 Project GAZZUA_Stratos is aiming to calculate UV, Ozone, Temperature, Humidity, Pressure, etc.,
 
