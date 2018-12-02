@@ -50,7 +50,7 @@ void loop(){
   myFile.println("[OZONE]: ");
   myFile.print(sensor2.getVgas(1));
   myFile.println("\n");
-  delay(2000);
+  delay(4000);
   
   uint32_t start = micros();
   int chk = DHT.read22(DHT22_PIN);
@@ -67,7 +67,7 @@ void loop(){
   myFile.println("[HUMIDITY] :");
   myFile.print(DHT.humidity, 1);
   myFile.println("\n");
-  delay(2000);
+  delay(4000);
   
   
   long realPressure = ms5611.readPressure();
@@ -86,7 +86,7 @@ void loop(){
   myFile.println("[Altitude] :");
   myFile.print(relativeAltitude);
   Serial.println("\n");
-  delay(2000);
+  delay(4000);
 
   ad_value = analogRead(uv_ain);
   uv_val = ad_value * 307; //Irradiance, mW/m^2, 일정 면적당 받는 전자기력?
@@ -96,7 +96,7 @@ void loop(){
   myFile.println("[UV/Irradiance]: ");
   myFile.print(uv_val);
   myFile.println("\n");
-  delay(2000);
+  delay(4000);
   
   myFile.close();
   }
